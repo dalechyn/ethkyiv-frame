@@ -28,6 +28,7 @@ export const app = new Frog({
 
 app.frame('/', (c) => {
   return c.res({
+    title: 'ETHKyiv Frame',
     image: (
       <Box width="100%" height="100%" alignVertical='center' alignHorizontal='center' backgroundColor="background">
         <Box grow justifyContent='center' alignItems='center'>
